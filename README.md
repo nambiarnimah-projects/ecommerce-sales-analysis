@@ -1,1 +1,133 @@
 # ecommerce-sales-analysis
+E-Commerce Sales Analysis (SQL + Power BI)
+Project Overview
+
+This project analyzes a sample e-commerce sales dataset using SQL for querying and Power BI for visualization.
+
+The goal of this project was to practice basic data analysis skills such as:
+
+Writing SQL queries to explore a dataset
+
+Finding patterns in sales across categories and regions
+
+Calculating metrics like revenue, number of orders, and customer count
+
+Creating a simple dashboard to visualize the results
+
+This project is part of my learning journey in data analytics.
+
+Dataset
+
+The dataset contains order-level information from an e-commerce store, including:
+
+Order details (Order ID, Order Date, Ship Date)
+
+Customer information
+
+Product category and sub-category
+
+Sales data
+
+Regional information
+
+The data was stored in SQL and later exported to CSV format for use in Power BI.
+
+Tools Used
+
+SQL – Data exploration and analysis
+
+Power BI – Dashboard creation and visualization
+
+Excel / CSV – Data storage and transfer
+
+GitHub – Project documentation and version control
+
+Analysis Objectives
+
+The main objectives of this analysis were:
+
+Identify which product category generates the highest revenue
+
+Compare order counts between categories
+
+Analyze regional sales performance
+
+Track sales patterns over time
+
+Count the total number of customers and orders
+
+Key Findings
+1. Category Revenue
+
+Among the three categories:
+
+Furniture generated the highest revenue, contributing roughly 10% of the total revenue.
+
+This suggests that although furniture products are purchased less frequently, they have higher individual prices.
+
+2. Order Volume
+
+Office Supplies recorded the highest number of orders.
+
+However, the revenue from this category was lower compared to furniture. This likely indicates that office supply products are lower priced but purchased more frequently.
+
+3. Sales Trend Over Time
+
+From the yearly sales trend:
+
+Office Supplies shows a relatively stable growth pattern.
+
+Technology sales fluctuate more, with noticeable peaks and drops.
+
+This suggests that technology products may have seasonal demand or promotional spikes.
+
+Dashboard
+
+The insights from SQL queries were visualized in a Power BI dashboard showing:
+
+Sales by Category
+
+Sales by Region
+
+Total Orders
+
+Customer Count
+
+Sales Trends Over Time
+
+(Dashboard preview)
+dashboard.png
+
+Project Structure
+ecommerce-sales-dashboard
+│
+├── dataset.csv        # Dataset used for analysis
+├── queries.sql        # SQL queries used in the project
+├── dashboard.pbix     # Power BI dashboard file
+├── dashboard.png      # Screenshot of the dashboard
+└── README.md          # Project documentation
+What I Learned
+
+Through this project I practiced:
+
+Writing SQL aggregation queries
+
+Using GROUP BY and COUNT
+
+Extracting insights from structured data
+
+Creating basic Power BI dashboards
+
+Documenting projects on GitHub
+
+Future Improvements
+
+Some improvements that could be added later:
+
+More advanced SQL queries
+
+Additional KPIs like profit margins
+
+Interactive dashboard filters
+
+Larger real-world datasets
