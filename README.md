@@ -7,10 +7,7 @@ This project analyzes a sample e-commerce sales dataset using **SQL for querying
 
 The goal of this project was to practice basic data analysis skills such as:
 
-* Writing SQL queries to explore a dataset
-* Finding patterns in sales across categories and regions
-* Calculating metrics like revenue, number of orders, and customer count
-* Creating a simple dashboard to visualize the results
+A business-focused sales analysis of an e-commerce dataset using SQL for data extraction and Power BI for dashboard visualization. The goal was to identify which product categories and regions drive the most revenue, and how sales trends shift over time — the kind of insight a business would use to make pricing and inventory decisions.
 
 This project is part of my learning journey in data analytics.
 
@@ -38,6 +35,8 @@ The data was stored in SQL and later exported to **CSV format** for use in Power
 * **GitHub** – Project documentation and version control
 
 ---
+## Problem
+An e-commerce store has order data across multiple categories, regions, and time periods — but no clear view of where revenue actually comes from. Which category generates the most value? Are high-order-volume categories actually profitable? Where are the regional gaps?
 
 ## Analysis Objectives
 
@@ -76,6 +75,12 @@ From the yearly sales trend:
 
 This suggests that technology products may have **seasonal demand**.
 
+| Insight | Detail |
+|---|---|
+| Highest revenue category | Furniture (~10% of total revenue, fewer but higher-value orders) |
+| Highest order volume | Office Supplies (frequent, low-cost purchases) |
+| Most volatile category | Technology (year-on-year peaks and drops) |
+| Regional breakdown | Visualized across 4 regions in the dashboard |
 ---
 
 ## Dashboard
